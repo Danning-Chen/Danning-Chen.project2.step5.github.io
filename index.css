@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 170px;
+}
+
+.logo {
+    align-items: center;
+    font-size: 7vh;
+    font-weight: bold;
+    color: white;
+    background-color: #ff6711;
+    height: 170px;
+    font-family: 'Brush Script MT';
+    padding: 30px;
+}
+
+.nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+
+}
+
+.button_start{
+    height: 10vh;
+    width: 26%;
+    background-color: white;
+    color: #ff6711;
+    border-radius: 10px;
+    margin-top: 5%;
+    font-size: 2vh;
+    border-color: #ff6711;
+    border: 0px;
+}
+
+.button_lesson{
+    height: 8vh;
+    width: 20%;
+    background-color: white;
+    color: #ff6711;
+    border-radius: 10px;
+    margin-top: 5%;
+    font-size: 2vh;
+    border-color: #ff6711;
+    border: 0px;
+}
+
+.text{
+    height: 60vh;
+    width: 40%;
+    margin-top: 10vh; 
+    margin-left: 30%; 
+    background-color: #ff6711;
+    border-radius: 10px;
+    color:white;
+}

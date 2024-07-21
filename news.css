@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 170px;
+}
+
+.logo {
+    align-items: center;
+    font-size: 7vh;
+    font-weight: bold;
+    color: white;
+    background-color: #ff6711;
+    height: 170px;
+    font-family: 'Brush Script MT';
+    padding: 30px;
+}
+
+.nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.center{
+    width: 60%;
+    margin-left: 20%;
+    height: 90vh;  
+    background-color: #EEEEEE;
+    overflow-y: auto;
+}
+
+.title{
+    margin-left: 5%;
+    margin-top: 2vh;
+    font-size: 4vh;
+    font-weight: bold;
+}

@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 170px;
+}
+
+.logo {
+    align-items: center;
+    font-size: 7vh;
+    font-weight: bold;
+    color: white;
+    background-color: #ff6711;
+    height: 170px;
+    font-family: 'Brush Script MT';
+    padding: 30px;
+}
+
+.nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.faceted_search{
+    position: absolute;
+    width: 15%;
+    background-color: white;
+    height: 100vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header_text{
+    font-weight: bold;
+    font-size: 3vh;
+    margin-left: 10%;
+    margin-top: 4vh;
+}
+
+
+.choice_before{
+    margin-top: 2vh;
+
+}
+
+.button_choice{
+    width: 40%;
+    color: white;
+    background-color: #ff6711;
+    border-color: #ff6711;
+    font-size: 2vh;
+    margin-left: 6%;
+    border: 0px;
+}
+
+.apply{
+    background-color: #ff6711;
+    color: white;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 2vh;
+    border: 0px;
+    height: 3vh;
+}
+
+
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+/* Create a custom checkbox */
+.custom-checkbox label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 10%;
+    margin-left: 10%;
+    font-size: 2vh;
+}
+
+.custom-checkbox label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2vh;
+    height: 2vh;
+    border: solid #ff6711;
+    border-radius: 2px;
+
+    background-color: #fff; /* Background color */
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label:before {
+    background-color: #ff6711; /* Checked background color */
+    border-color: #ff6711; /* Checked border color */
+    border-radius: 2px;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label:after {
+    display: block;
+}
+
+.cards{
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 90%;
+}
+
+.card_coach{
+    background-color: white;
+    margin-top: 3vh;
+    margin-left: 4%;
+    width: 20%;
+    height: 27vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card_lesson{
+    background-color: white;
+    margin-top: 3vh;
+    margin-left: 4%;
+    width: 20%;
+    height: 32vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button_sub{
+    background-color: #ff6711;
+    color: white;
+    width: 80%;
+    height: 3vh;
+    border-color: #ff6711;
+    border: 0px;
+    margin-left: 10%;
+    font-size: 2vh;
+}
+
