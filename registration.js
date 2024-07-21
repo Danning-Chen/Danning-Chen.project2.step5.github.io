@@ -18,12 +18,18 @@ function setProgress(){
 }
 
 function confirm(){
-    setProgress()
+    if (document.getElementById('username').value == ""||document.getElementById('password').value==""){
+        document.getElementById('warn').style.display = "block"
+    }
+    else{
+        setProgress()
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
     console.log('Step 1 - Username:', username, 'Password:', password);
     document.getElementById('step1').style.display = 'none';
     document.getElementById('step2').style.display = 'block';
+    }
+    
 }
 
 function selectMembership(n){
